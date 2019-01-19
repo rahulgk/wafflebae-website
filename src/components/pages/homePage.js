@@ -13,7 +13,7 @@ class Homepage extends Component {
                     <h4 class="text-uppercase">Your bae is here</h4>
                     <h1>WaffleBae</h1>
                     <p>An exclusive waffle shop in Kochi.</p>
-                    <NavLink href="/Menu" className="button">View Menu</NavLink>
+                    <NavLink href="#Menu" className="button">View Menu</NavLink>
                 </div>
                 <div className="about-section">
                     <Container>
@@ -27,7 +27,7 @@ class Homepage extends Component {
                             </Col>
                             <Col md="12" lg="6">
                                 <div className="wb-item">
-                                    <img className="img-fluid" src="/assets/images/image1.jpg" alt="#"></img>
+                                    <img className="img-fluid" src="/assets/images/image1.jpg" alt=""></img>
                                 </div>
                             </Col>
                         </Row>

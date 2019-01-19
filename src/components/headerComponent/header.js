@@ -5,7 +5,7 @@ import {
   NavbarToggler,
   Nav,
   NavItem,
-  NavLink, } from 'reactstrap';
+  NavLink } from 'reactstrap';
 
 export default class Header extends React.Component {
   constructor(props) {
@@ -34,19 +34,19 @@ export default class Header extends React.Component {
                   <NavLink href="/">Home</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="/About">About Us</NavLink>
+                  <NavLink href="#About">About Us</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="/Menu">Menu</NavLink>
+                  <NavLink href="#Menu">Menu</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="/Gallery">Gallery</NavLink>
+                  <NavLink href="#Gallery">Gallery</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="/Franchise">Franchise</NavLink>
+                  <NavLink href="#Franchise">Franchise</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="/Contact">Contact</NavLink>
+                  <NavLink href="#Contact">Contact</NavLink>
                 </NavItem>
               </Nav>
             </Collapse>

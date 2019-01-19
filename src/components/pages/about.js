@@ -46,7 +46,7 @@ class About extends Component {
                             </Col>
                             <Col md="12" lg="6">
                                 <div className="wb-item">
-                                    <img className="img-fluid" src="/assets/images/image9.jpg" alt="#"></img>
+                                    <img className="img-fluid" src="/assets/images/image9.jpg" alt=""></img>
                                 </div>
                             </Col>
                         </Row>

@@ -108,25 +108,25 @@ export default class Example extends React.Component {
               <Col md="12" lg="8">
                 <TabContent activeTab={this.state.activeTab}>
                   <TabPane tabId="1">
-                    <img className="img-fluid" src="/assets/images/menu-card-1.png" alt="#"></img>
+                    <img className="img-fluid" src="/assets/images/menu-card-1.png" alt=""></img>
                   </TabPane>
                   <TabPane tabId="2">
-                    <img className="img-fluid" src="/assets/images/menu-card-2.png" alt="#"></img>
+                    <img className="img-fluid" src="/assets/images/menu-card-2.png" alt=""></img>
                   </TabPane>
                   <TabPane tabId="3">
-                    <img className="img-fluid" src="/assets/images/menu-card-3.png" alt="#"></img>
+                    <img className="img-fluid" src="/assets/images/menu-card-3.png" alt=""></img>
                   </TabPane>
                   <TabPane tabId="4">
-                    <img className="img-fluid" src="/assets/images/menu-card-4.png" alt="#"></img>
+                    <img className="img-fluid" src="/assets/images/menu-card-4.png" alt=""></img>
                   </TabPane>
                   <TabPane tabId="5">
-                    <img className="img-fluid" src="/assets/images/menu-card-5.png" alt="#"></img>
+                    <img className="img-fluid" src="/assets/images/menu-card-5.png" alt=""></img>
                   </TabPane>
                   <TabPane tabId="6">
-                    <img className="img-fluid" src="/assets/images/menu-card-6.png" alt="#"></img>
+                    <img className="img-fluid" src="/assets/images/menu-card-6.png" alt=""></img>
                   </TabPane>
                   <TabPane tabId="7">
-                    <img className="img-fluid" src="/assets/images/menu-card-7.png" alt="#"></img>
+                    <img className="img-fluid" src="/assets/images/menu-card-7.png" alt=""></img>
                   </TabPane>
                 </TabContent>
               </Col>
