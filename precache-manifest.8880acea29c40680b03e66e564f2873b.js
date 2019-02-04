@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
     "revision": "47315d602a73961be6d1a477d264ea3d",
-    "url": "/wafflebae-website/static/media/menu-card-3.47315d60.png"
+    "url": "/wafflebae-website/static/media/menu-card-2.47315d60.png"
   },
   {
-    "revision": "564a812bdeb1fcaba2a4",
-    "url": "/wafflebae-website/static/css/main.7400b684.chunk.css"
+    "revision": "1b5fba0025226594c90c",
+    "url": "/wafflebae-website/static/css/main.e4ff7ac4.chunk.css"
   },
   {
     "revision": "41ca3fe84b037a6bb57d9acfa72f2de9",
     "url": "/wafflebae-website/static/media/image2.41ca3fe8.jpg"
   },
   {
-    "revision": "9233a1b41048b7888c5b",
-    "url": "/wafflebae-website/static/js/1.9233a1b4.chunk.js"
+    "revision": "43eeff061274be057fc0",
+    "url": "/wafflebae-website/static/js/1.43eeff06.chunk.js"
   },
   {
     "revision": "72acf311ac82dbb87f85",
@@ -44,32 +44,28 @@ self.__precacheManifest = [
     "url": "/wafflebae-website/static/media/image5.4351266a.jpg"
   },
   {
-    "revision": "fc75ec90a2f6aa4a1d48bb8a53f37a7f",
-    "url": "/wafflebae-website/static/media/menu-card-1.fc75ec90.png"
-  },
-  {
     "revision": "57c6f13c947480e28a8165736db8c6b7",
-    "url": "/wafflebae-website/static/media/menu-card-2.57c6f13c.png"
+    "url": "/wafflebae-website/static/media/menu-card-1.57c6f13c.png"
   },
   {
-    "revision": "564a812bdeb1fcaba2a4",
-    "url": "/wafflebae-website/static/js/main.564a812b.chunk.js"
+    "revision": "1b5fba0025226594c90c",
+    "url": "/wafflebae-website/static/js/main.1b5fba00.chunk.js"
   },
   {
     "revision": "7de6b6392f6022c655db550783bfe32e",
-    "url": "/wafflebae-website/static/media/menu-card-4.7de6b639.png"
+    "url": "/wafflebae-website/static/media/menu-card-3.7de6b639.png"
   },
   {
     "revision": "71a28122e16117fed22a46948c20589d",
-    "url": "/wafflebae-website/static/media/menu-card-5.71a28122.png"
+    "url": "/wafflebae-website/static/media/menu-card-4.71a28122.png"
   },
   {
     "revision": "efaed1ca66c403b52a6a9f98d50b5973",
-    "url": "/wafflebae-website/static/media/menu-card-6.efaed1ca.png"
+    "url": "/wafflebae-website/static/media/menu-card-5.efaed1ca.png"
   },
   {
     "revision": "6fbb45cc2266b96a26293c6128a8e16b",
-    "url": "/wafflebae-website/static/media/menu-card-7.6fbb45cc.png"
+    "url": "/wafflebae-website/static/media/menu-card-6.6fbb45cc.png"
   },
   {
     "revision": "a7bcaafd82c52afe6d3ccb2d1bfa209a",
@@ -96,11 +92,11 @@ self.__precacheManifest = [
     "url": "/wafflebae-website/static/media/gallery-image6.b4a54826.jpg"
   },
   {
-    "revision": "9233a1b41048b7888c5b",
+    "revision": "43eeff061274be057fc0",
     "url": "/wafflebae-website/static/css/1.b88a84ef.chunk.css"
   },
   {
-    "revision": "a69633e597bb2be844994f950177d80c",
+    "revision": "ec15ae995937854a6fea359d763fe5fb",
     "url": "/wafflebae-website/index.html"
   }
 ];
