@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "05636af11d7b10dccfd47e47beb8f56b",
-    "url": "/wafflebae-website/static/media/menu-image1.05636af1.jpg"
+    "revision": "dea323dd0673a7e47db7c6afee8c1b59",
+    "url": "/wafflebae-website/static/media/menu-item2.dea323dd.jpg"
   },
   {
-    "revision": "9bbbae8657b6fb1b2581",
-    "url": "/wafflebae-website/static/css/main.7570d89e.chunk.css"
+    "revision": "e6fff99b7a1f090fba5e",
+    "url": "/wafflebae-website/static/css/main.7647b5ea.chunk.css"
   },
   {
     "revision": "dc55b741e7fcc6c480771aea28d5fdbe",
     "url": "/wafflebae-website/static/media/contact-image1.dc55b741.jpg"
   },
   {
-    "revision": "d83e9e07e88604f67111",
-    "url": "/wafflebae-website/static/js/1.d83e9e07.chunk.js"
+    "revision": "d45bb935cf22a8a3c9f2",
+    "url": "/wafflebae-website/static/js/1.d45bb935.chunk.js"
   },
   {
     "revision": "72acf311ac82dbb87f85",
@@ -37,11 +37,27 @@ self.__precacheManifest = [
   },
   {
     "revision": "0db19d5fa3727850f85750fa47838958",
-    "url": "/wafflebae-website/static/media/about-image1.0db19d5f.jpg"
+    "url": "/wafflebae-website/static/media/about-image.0db19d5f.jpg"
   },
   {
-    "revision": "9bbbae8657b6fb1b2581",
-    "url": "/wafflebae-website/static/js/main.9bbbae86.chunk.js"
+    "revision": "e12b9b1bcaabc212b92134d959cafb20",
+    "url": "/wafflebae-website/static/media/menu-image2.e12b9b1b.jpg"
+  },
+  {
+    "revision": "f017f7fbcf7176e70a05fed3e3c44a1d",
+    "url": "/wafflebae-website/static/media/menu-item1.f017f7fb.jpg"
+  },
+  {
+    "revision": "e6fff99b7a1f090fba5e",
+    "url": "/wafflebae-website/static/js/main.e6fff99b.chunk.js"
+  },
+  {
+    "revision": "2d636764afb0cfea1dc5edd8e165fce1",
+    "url": "/wafflebae-website/static/media/menu-item3.2d636764.jpg"
+  },
+  {
+    "revision": "61626f900981bd6aeaf9c4a711a106e2",
+    "url": "/wafflebae-website/static/media/menu-item4.61626f90.jpg"
   },
   {
     "revision": "3d8bf9b691d0ec3739f0d5d9858c92ef",
@@ -76,11 +92,11 @@ self.__precacheManifest = [
     "url": "/wafflebae-website/static/media/franchise-image1.cfa076e2.jpg"
   },
   {
-    "revision": "d83e9e07e88604f67111",
-    "url": "/wafflebae-website/static/css/1.5f4f4938.chunk.css"
+    "revision": "d45bb935cf22a8a3c9f2",
+    "url": "/wafflebae-website/static/css/1.9aeb1e57.chunk.css"
   },
   {
-    "revision": "c07ffd8a557720019eefe1f6b95b7fce",
+    "revision": "d6b71ec6a58087a2eaf17fbbaa4dd142",
     "url": "/wafflebae-website/index.html"
   }
 ];
