@@ -1,7 +1,7 @@
 {
   "main.css": "/wafflebae-website/static/css/main.27424b90.chunk.css",
-  "main.js": "/wafflebae-website/static/js/main.4414ef0b.chunk.js",
-  "main.js.map": "/wafflebae-website/static/js/main.4414ef0b.chunk.js.map",
+  "main.js": "/wafflebae-website/static/js/main.3e51ee57.chunk.js",
+  "main.js.map": "/wafflebae-website/static/js/main.3e51ee57.chunk.js.map",
   "static/css/1.0e8e84a8.chunk.css": "/wafflebae-website/static/css/1.0e8e84a8.chunk.css",
   "static/js/1.3dfbb4e2.chunk.js": "/wafflebae-website/static/js/1.3dfbb4e2.chunk.js",
   "static/js/1.3dfbb4e2.chunk.js.map": "/wafflebae-website/static/js/1.3dfbb4e2.chunk.js.map",
@@ -31,6 +31,6 @@
   "static/css/main.27424b90.chunk.css.map": "/wafflebae-website/static/css/main.27424b90.chunk.css.map",
   "static/css/1.0e8e84a8.chunk.css.map": "/wafflebae-website/static/css/1.0e8e84a8.chunk.css.map",
   "index.html": "/wafflebae-website/index.html",
-  "precache-manifest.6a85815cd00e3cdee6b56244d6229949.js": "/wafflebae-website/precache-manifest.6a85815cd00e3cdee6b56244d6229949.js",
+  "precache-manifest.5e9aaaeaf19179ef7bac0a5782dc5451.js": "/wafflebae-website/precache-manifest.5e9aaaeaf19179ef7bac0a5782dc5451.js",
   "service-worker.js": "/wafflebae-website/service-worker.js"
 }
