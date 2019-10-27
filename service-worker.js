@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.2/workbox-sw.js");
 
 importScripts(
-  "/wafflebae-website/precache-manifest.750458b35a0827c0b3e13d11fe6b8610.js"
+  "/wafflebae-website/precache-manifest.27779b34c3922501abf1fa99fa26e835.js"
 );
 
 workbox.clientsClaim();
