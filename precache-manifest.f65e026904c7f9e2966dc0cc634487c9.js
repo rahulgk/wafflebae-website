@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "61626f900981bd6aeaf9c4a711a106e2",
-    "url": "/wafflebae-website/static/media/menu-item4.61626f90.jpg"
+    "revision": "6ff7245cd775760d48e6491e03d35d49",
+    "url": "/wafflebae-website/static/media/menu-item5.6ff7245c.jpg"
   },
   {
-    "revision": "bfd01d30e1d9b922d49e",
-    "url": "/wafflebae-website/static/css/main.7849cf03.chunk.css"
+    "revision": "aef00cb9e961c18aaacf",
+    "url": "/wafflebae-website/static/css/main.0f651748.chunk.css"
   },
   {
     "revision": "b9e73d9afc9006b860c9d1f111f447d3",
     "url": "/wafflebae-website/static/media/location-image2.b9e73d9a.jpg"
   },
   {
-    "revision": "fc90673d1b2ff143a895",
-    "url": "/wafflebae-website/static/js/1.fc90673d.chunk.js"
+    "revision": "8d5a049c868afdec5454",
+    "url": "/wafflebae-website/static/js/1.8d5a049c.chunk.js"
   },
   {
     "revision": "72acf311ac82dbb87f85",
@@ -56,12 +56,12 @@ self.__precacheManifest = [
     "url": "/wafflebae-website/static/media/menu-item3.2d636764.jpg"
   },
   {
-    "revision": "bfd01d30e1d9b922d49e",
-    "url": "/wafflebae-website/static/js/main.bfd01d30.chunk.js"
+    "revision": "61626f900981bd6aeaf9c4a711a106e2",
+    "url": "/wafflebae-website/static/media/menu-item4.61626f90.jpg"
   },
   {
-    "revision": "6ff7245cd775760d48e6491e03d35d49",
-    "url": "/wafflebae-website/static/media/menu-item5.6ff7245c.jpg"
+    "revision": "aef00cb9e961c18aaacf",
+    "url": "/wafflebae-website/static/js/main.aef00cb9.chunk.js"
   },
   {
     "revision": "c33d1b5ebf9036d77a68bbf370849a52",
@@ -97,22 +97,26 @@ self.__precacheManifest = [
   },
   {
     "revision": "71473b1a35707fed81ccdb4773ca686b",
-    "url": "/wafflebae-website/static/media/cover-image5.71473b1a.jpg"
+    "url": "/wafflebae-website/static/media/cover-image4.71473b1a.jpg"
+  },
+  {
+    "revision": "7eed75cd3f1d50be3d327e0216faadaf",
+    "url": "/wafflebae-website/static/media/cover-image5.7eed75cd.jpg"
   },
   {
     "revision": "a323c2742e46983718de52003453c952",
-    "url": "/wafflebae-website/static/media/cover-image7.a323c274.jpg"
+    "url": "/wafflebae-website/static/media/cover-image6.a323c274.jpg"
   },
   {
     "revision": "145a34b32b21f10ca3a240d1b9b8f7a7",
     "url": "/wafflebae-website/static/media/location-image1.145a34b3.jpg"
   },
   {
-    "revision": "fc90673d1b2ff143a895",
+    "revision": "8d5a049c868afdec5454",
     "url": "/wafflebae-website/static/css/1.0e8e84a8.chunk.css"
   },
   {
-    "revision": "0fff692ec58d2e1d89cbe5f8300c5e3b",
+    "revision": "849a5bf7becbc1c3d88a2ec6838a96b9",
     "url": "/wafflebae-website/index.html"
   }
 ];
