@@ -1,136 +1,133 @@
-import React from 'react';
-import { Container, Row, Col, TabContent, TabPane, Nav, NavItem, NavLink, } from 'reactstrap';
-import classnames from 'classnames';
+import React from "react";
+import { Container } from "reactstrap";
 
-import Header from '../headerComponent/header';
-import Footer from '../footerComponent/footer';
+import Header from "../Header/Header";
+import Footer from "../Footer/Footer";
 
 export default class Example extends React.Component {
-  constructor(props) {
-    super(props);
-
-    this.toggle = this.toggle.bind(this);
-    this.state = {
-      activeTab: '1'
-    };
-  }
-
-  toggle(tab) {
-    if (this.state.activeTab !== tab) {
-      this.setState({
-        activeTab: tab
-      });
-    }
-  }
   render() {
     return (
-      <div className="menu">
+      <div>
         <Header />
         <div className="menu-page">
-          <h2>Our Menu</h2>
-        </div>
-        <div className="menu-top">
-          <div className="heading-title">
-            <h2 className="wb-font-custom">WaffleBae Menu</h2>
-          </div>
-          <div className="content">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, laudantium, quibusdam? Nobis, delectus, commodi, fugit amet tempora facere dolores nisi facilis consequatur, odio hic minima nostrum.
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, laudantium, quibusdam? Nobis, delectus, commodi, fugit amet tempora facere dolores nisi facilis consequatur, odio hic minima nostrum.
-            </p>
+          <div
+            className="menu-title"
+            style={{
+              backgroundImage: `linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(${require("../../assets/images/cover-image2.jpg")})`
+            }}
+          >
+            <h2>Our Menu</h2>
           </div>
         </div>
-        <div className="menu-nav">
+        <div className="menu">
           <Container>
-            <Row>
-              <Col md="12" lg="4">
-                <Nav tabs className="nav-tabs">
-                  <NavItem>
-                    <NavLink
-                      className={classnames({ active: this.state.activeTab === '1' })}
-                      onClick={() => { this.toggle('1'); }}
-                    >
-                      Addons
-                    </NavLink>
-                  </NavItem>
-                  <NavItem>
-                    <NavLink
-                      className={classnames({ active: this.state.activeTab === '2' })}
-                      onClick={() => { this.toggle('2'); }}
-                    >
-                      Waffwich
-                    </NavLink>
-                  </NavItem>
-                  <NavItem>
-                    <NavLink
-                      className={classnames({ active: this.state.activeTab === '3' })}
-                      onClick={() => { this.toggle('3'); }}
-                    >
-                      Belgian Waffle
-                    </NavLink>
-                  </NavItem>
-                  <NavItem>
-                    <NavLink
-                      className={classnames({ active: this.state.activeTab === '4' })}
-                      onClick={() => { this.toggle('4'); }}
-                    >
-                      Mini Pancake
-                    </NavLink>
-                  </NavItem>
-                  <NavItem>
-                    <NavLink
-                      className={classnames({ active: this.state.activeTab === '5' })}
-                      onClick={() => { this.toggle('5'); }}
-                    >
-                      Milk Shake
-                    </NavLink>
-                  </NavItem>
-                  <NavItem>
-                    <NavLink
-                      className={classnames({ active: this.state.activeTab === '6' })}
-                      onClick={() => { this.toggle('6'); }}
-                    >
-                      Bubble Waffle
-                    </NavLink>
-                  </NavItem>
-                  <NavItem>
-                    <NavLink
-                      className={classnames({ active: this.state.activeTab === '7' })}
-                      onClick={() => { this.toggle('7'); }}
-                    >
-                      Hot Beverages
-                    </NavLink>
-                  </NavItem>
-                </Nav>
-              </Col>
-              <Col md="12" lg="8">
-                <TabContent activeTab={this.state.activeTab}>
-                  <TabPane tabId="1">
-                    <img className="img-fluid" src="/assets/images/menu-card-1.png" alt=""></img>
-                  </TabPane>
-                  <TabPane tabId="2">
-                    <img className="img-fluid" src="/assets/images/menu-card-2.png" alt=""></img>
-                  </TabPane>
-                  <TabPane tabId="3">
-                    <img className="img-fluid" src="/assets/images/menu-card-3.png" alt=""></img>
-                  </TabPane>
-                  <TabPane tabId="4">
-                    <img className="img-fluid" src="/assets/images/menu-card-4.png" alt=""></img>
-                  </TabPane>
-                  <TabPane tabId="5">
-                    <img className="img-fluid" src="/assets/images/menu-card-5.png" alt=""></img>
-                  </TabPane>
-                  <TabPane tabId="6">
-                    <img className="img-fluid" src="/assets/images/menu-card-6.png" alt=""></img>
-                  </TabPane>
-                  <TabPane tabId="7">
-                    <img className="img-fluid" src="/assets/images/menu-card-7.png" alt=""></img>
-                  </TabPane>
-                </TabContent>
-              </Col>
-            </Row>
+            <div className="menu-content">
+              <div className="menu-item">
+                <img
+                  className="responsive-image"
+                  src={require("../../assets/images/menu-item1.jpg")}
+                  alt=""
+                ></img>
+                <div className="menu-content-text">
+                  <h4 className="wb-font-custom">Waffwiches</h4>
+                  <p>
+                    2 crispy quarter sized waffles sandwiched with fillings in
+                    between. Our fillings range from IceCreams to Chocolate
+                    fillings such as Raffaello, which is our best seller item on
+                    the menu.
+                  </p>
+                </div>
+              </div>
+              <div className="menu-item">
+                <img
+                  className="responsive-image"
+                  src={require("../../assets/images/menu-item2.jpg")}
+                  alt=""
+                ></img>
+                <div className="menu-content-text">
+                  <h4 className="wb-font-custom">Belgian Waffles</h4>
+                  <p>
+                    Authentic, round, full sized waffles served icecream and
+                    whipped cream. The quantity is huge and is often enjoyed by
+                    our customers as a full meal. Our Banoffee waffle, which is
+                    topped with cream made from Bananas and Milk toffee, topped
+                    with icecream and caramelised nuts is one of our favourite
+                    items.
+                  </p>
+                </div>
+              </div>
+              <div className="menu-item">
+                <img
+                  className="responsive-image"
+                  src={require("../../assets/images/menu-item3.jpg")}
+                  alt=""
+                ></img>
+                <div className="menu-content-text">
+                  <h4 className="wb-font-custom">Bubble Waffles</h4>
+                  <p>
+                    Eggettes is a variety of waffle that originated in Honkong.
+                    Later on many changes and ideas were brought in to this
+                    concept and is being served in many parts of the world as
+                    Bubble Waffles. So, we thought to introduce this ‘not very
+                    common’ dish to kochi in our unique style. At present we
+                    have 6 different types of Bubble waffles that are being
+                    served at the store, and we are in the process of adding
+                    more to it.{" "}
+                  </p>
+                </div>
+              </div>
+              <div className="menu-item">
+                <img
+                  className="responsive-image"
+                  src={require("../../assets/images/menu-item4.jpg")}
+                  alt=""
+                ></img>
+                <div className="menu-content-text">
+                  <h4 className="wb-font-custom">Mini Pancakes</h4>
+                  <p>
+                    Our Mini Pancakes are cute little rounds of yumminess which
+                    are just a mini version of pancakes. One order consists of
+                    12 mini pancakes and topings vary from syrup, honey and
+                    chocolate to our inhouse prepared signature topping called
+                    Cheesy Cream.
+                  </p>
+                </div>
+              </div>
+              <div className="menu-item">
+                <img
+                  className="responsive-image"
+                  src={require("../../assets/images/menu-item5.jpg")}
+                  alt=""
+                ></img>
+                <div className="menu-content-text">
+                  <h4 className="wb-font-custom">Crepes</h4>
+                  <p>
+                    As a result of enquiries from many of our customers, we are
+                    in the process of introducing our crepe menu. Our crepes
+                    will be served hot with different varieties sauces as
+                    toppings, Icecream, Whipped Cream and Fresh Cut Fruits.
+                  </p>
+                </div>
+              </div>
+              <div className="menu-item">
+                <img
+                  className="responsive-image"
+                  src={require("../../assets/images/menu-item6.jpg")}
+                  alt=""
+                ></img>
+                <div className="menu-content-text">
+                  <h4 className="wb-font-custom">Savoury Waffles</h4>
+                  <p>
+                    To all the people without a sweet tooth, we need to ensure
+                    that Waffle is still BAE! As a result, our Savoury waffle
+                    menu is under prep to make WaffleBae a favourite spot for
+                    the people who love Spice and Cheese Flavours too. Our
+                    Savoury menu will consist of Pizza Waffles, Waffle
+                    Sandwiches and Savoury Crepes
+                  </p>
+                </div>
+              </div>
+            </div>
           </Container>
         </div>
         <Footer />
