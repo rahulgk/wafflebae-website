@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/wafflebae-website/static/media/menu-item5.6ff7245c.jpg"
   },
   {
-    "revision": "e55afb7f2cfb73b238bd",
+    "revision": "b4d89fd939c59579ca72",
     "url": "/wafflebae-website/static/css/main.3e0133be.chunk.css"
   },
   {
@@ -60,8 +60,8 @@ self.__precacheManifest = [
     "url": "/wafflebae-website/static/media/menu-item4.61626f90.jpg"
   },
   {
-    "revision": "e55afb7f2cfb73b238bd",
-    "url": "/wafflebae-website/static/js/main.e55afb7f.chunk.js"
+    "revision": "b4d89fd939c59579ca72",
+    "url": "/wafflebae-website/static/js/main.b4d89fd9.chunk.js"
   },
   {
     "revision": "c33d1b5ebf9036d77a68bbf370849a52",
@@ -116,7 +116,7 @@ self.__precacheManifest = [
     "url": "/wafflebae-website/static/css/1.a8d93135.chunk.css"
   },
   {
-    "revision": "32d2d0802e7ade560f8106cd4c9d7359",
+    "revision": "2ae0b3596cced7dd3da2312e524287c5",
     "url": "/wafflebae-website/index.html"
   }
 ];
